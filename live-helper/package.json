@@ -1,0 +1,10 @@
+{
+  "name": "cs-f1-live-helper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Connects to F1's free live timing feed and serves it to the Corrupt Scripts F1 dashboard",
+  "main": "f1-live.js",
+  "scripts": { "start": "node f1-live.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": { "ws": "^8.18.0" }
+}
